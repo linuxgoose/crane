@@ -2,7 +2,7 @@
 
 <img src="https://jordansukenik.com/content/images/size/w750/2021/05/crane-traced.png" width="100">
 
-Crane is a small tool written in Go that allows to send HTML forms, for example from static websites without a dynamic backend, via email. It can be used for contact forms created on [Ghost](https://ghost.org) pages should a user not want to use a third-party service like TypeForm or FormSpree.
+Crane is a small tool written in Go that enables the ability to send HTML form requests, for example from static websites without a dynamic backend, via email. It can be used for contact forms created on [Ghost](https://ghost.org) pages should a user not want to use a third-party service like TypeForm or FormSpree.
 
 Crane is a fork of the [MailyGo](https://codeberg.org/jlelse/MailyGo) app by [jlelse](https://jlelse.dev/).
 
