@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<title>Example Crane Contact Form</title>
+	</head>
+	<body>
+		<form method="post" action="http://localhost:8080">
+			<input type="hidden" name="_to" value="example@example.com">
+			<input type="hidden" name="_formName" value="Crane Contact Form">
+			<input type="hidden" name="_token" value="">
+			<input type="hidden" name="_redirectTo" value="https://example.com/contact">
+			<input type="text" style="margin-bottom:5px" class="" name="Name" id="Name" placeholder="Name" required="">
+			<input type="email" style="margin-bottom:5px" class="" id="Email" placeholder="Email Address" name="_replyTo" required="">
+			<input type="text" style="margin-bottom:5px" name="Subject" id="Subject" class="" placeholder="Subject" required="">
+			<textarea name="Message" style="margin-bottom:5px;height:25%" id="Message" rows="4" class="" placeholder="Message" required=""></textarea>
+			<input id="TEmail" type="email" name="_t_email" style="display: none;">
+			<input type="submit" class="cover-button" value="Send">
+		</form>
+	</body>
+</html>
+
