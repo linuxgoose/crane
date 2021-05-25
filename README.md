@@ -8,6 +8,11 @@ Crane is a fork of the [MailyGo](https://codeberg.org/jlelse/MailyGo) app by [jl
 
 Crane is lean and resource-saving. It can be installed with just one executable file.
 
+## Prerequisites
+
+In order to run Crane without any issues you'll need the following:
+* Go - v1.4.2 or higher
+
 ## Installation
 
 Crane can be installed by the following command.
