@@ -98,7 +98,7 @@ do
  PORT=$port_input EMAIL_TO=$email_to_input \
  ALLOWED_TO=$allowed_to_input EMAIL_FROM=$email_from_input SMTP_USER=$smtp_user_input \
  SMTP_PASS=$smtp_pass_input SMTP_HOST=$smtp_host_input SMTP_PORT=$smtp_port_input \
- SPAMLIST=$spamlist_input DENYLIST=$denylist_input go run .
+ SPAMLIST=$spamlist_input DENYLIST=$denylist_input /usr/local/go/bin/go run .
 
  sleep 10
 done
